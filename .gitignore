@@ -32,3 +32,5 @@ experiments/stellarator_regression/plots/
 experiments/stellarator_regression/data/
 experiments/rover/data/
 experiments/synthetic/ExactGradGP-run.py
+
+notes.md

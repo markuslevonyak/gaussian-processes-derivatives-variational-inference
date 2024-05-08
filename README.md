@@ -4,7 +4,11 @@ This repo contains code for the NeurIPS paper, Scaling Gaussian Processes with D
 
 All of our code leverages the GPyTorch framework for efficient computations and GPU acceleration. Much of the functionality of this code base is, or soon will be, built into GPyTorch.
 
-The `graphite_environment.yml` can be used to create a compatible conda environment.
+Create and activate a compatible conda environment:
+```console
+$ conda env create -f environment.yml
+$ conda activate gaussian-processes-derivatives-variational-inference
+```
 
 The directory structure is as follows:
 - `directional_vi` the main methods used in the paper.
